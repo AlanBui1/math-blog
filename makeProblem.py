@@ -1,13 +1,13 @@
 from datetime import date
 
-PAGETITLE = "Fermat 2017 Q25"
+PAGETITLE = "Fermat 2005 Q20"
 AUTHOR = "Alan_Bui"
 DATE = str(date.today())
 CATEGORIES = ["Fermat"]
-TAGS = ["number theory", "TO DO"]
+TAGS = ["geometry", "TO DO"]
 
 FILENAME = "_posts/"+DATE+"-"+PAGETITLE.replace(" ", "-")+".md"
-PROBLEMLINK = "https://cemc.uwaterloo.ca/contests/past_contests/2017/2017FermatContest.pdf"
+PROBLEMLINK = "https://cemc.uwaterloo.ca/contests/past_contests/2005/2005FermatContest.pdf"
 
 cats = str(CATEGORIES).replace("'", '')
 tags = str(TAGS).replace("'", '')
@@ -26,14 +26,9 @@ mermaid: true
 ---
 ## Problem Statement
 
-Let $r$ = $\sqrt{\dfrac{\sqrt{53}{2}} + \dfrac{3}{2}}. There is a unique triple of positive integers $(a, b, c)$ such that 
-
-$$r^100 = 2r^98 + 14r^96 + 11r^94 - r^50 + ar^46 + br^44 + cr^40$$
-
-What is the value of $a^2 + b^2 + c^2$?
+In triangle $ABC$, if $AB = AC = x + 1$ and $BC = 2x - 2$, where $x > 1$, then the area of the triangle is always equal to
 
 [Problem Link]('''+PROBLEMLINK+''')
-
 
 ## Solution
 
