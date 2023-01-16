@@ -1,13 +1,13 @@
 from datetime import date
 
-PAGETITLE = "Fermat 2000 Q17"
+PAGETITLE = "AIME 1990 P10"
 AUTHOR = "Alan_Bui"
 DATE = str(date.today())
-CATEGORIES = ["Fermat"]
-TAGS = ["geometry", "TO DO"]
+CATEGORIES = ["AIME"]
+TAGS = ["complex numbers", "TO DO"]
 
 FILENAME = "_posts/"+DATE+"-"+PAGETITLE.replace(" ", "-")+".md"
-PROBLEMLINK = "https://cemc.uwaterloo.ca/contests/past_contests/2000/2000FermatContest.pdf"
+PROBLEMLINK = "https://artofproblemsolving.com/wiki/index.php/1990_AIME_Problems/Problem_10"
 
 cats = str(CATEGORIES).replace("'", '')
 tags = str(TAGS).replace("'", '')
@@ -26,13 +26,9 @@ mermaid: true
 ---
 ## Problem Statement
 
-Three circles have centres A, B and C with radii 2, 4 and 6 respectively. The circles are tangent to each other as shown. $\\triangle ABC$ has
-
-(A) $\\angle A$ obtuse (B) $\\angle B = 90^{\\circ}$ (C) $angle A = 90^{\circ}$ (D) all angles acute (E) $\\angle A = \\angleB$
+The sets $A = \{z : z^{18} = 1\}$ and $B = \{w : w^{48} = 1\}$ are both sets of complex roots of unity. The set $C = \{zw : z \in A ~ \mbox{and} ~ w \in B\}$ is also a set of complex roots of unity. How many distinct elements are in $C_{}^{}$?
 
 [Problem Link]('''+PROBLEMLINK+''')
-
-![Problem Diagram](/assets/diagrams/fermat2000q17.png)
 
 ## Solution
 
