@@ -1,13 +1,13 @@
 from datetime import date
 
-PAGETITLE = "AIME 1990 P10"
+PAGETITLE = "Fermat 2008 Q23"
 AUTHOR = "Alan_Bui"
 DATE = str(date.today())
-CATEGORIES = ["AIME"]
-TAGS = ["complex numbers", "TO DO"]
+CATEGORIES = ["Fermat"]
+TAGS = ["geometry"]
 
 FILENAME = "_posts/"+DATE+"-"+PAGETITLE.replace(" ", "-")+".md"
-PROBLEMLINK = "https://artofproblemsolving.com/wiki/index.php/1990_AIME_Problems/Problem_10"
+PROBLEMLINK = "https://cemc.uwaterloo.ca/contests/past_contests/2008/2008FermatContest.pdf"
 
 cats = str(CATEGORIES).replace("'", '')
 tags = str(TAGS).replace("'", '')
@@ -26,11 +26,16 @@ mermaid: true
 ---
 ## Problem Statement
 
-The sets $A = \{z : z^{18} = 1\}$ and $B = \{w : w^{48} = 1\}$ are both sets of complex roots of unity. The set $C = \{zw : z \in A ~ \mbox{and} ~ w \in B\}$ is also a set of complex roots of unity. How many distinct elements are in $C_{}^{}$?
+Square $PQRS$ has side length 4 m. Point $U$ is on $PR$ with $PR = 4UR$. A circle centered at $U$ touches two sides of the square. $PW$ is a tangent to the circle, with $W$ on $QR$. The length of $PW$, to the nearest thousandth of a metre, is
 
 [Problem Link]('''+PROBLEMLINK+''')
 
+![Problem Diagram](/assets/diagrams/fermat2008q23.png)
+
 ## Solution
+
+![Problem Diagram](/assets/diagrams/fermat2008q23-1.png)
+
 
 ''')
 
