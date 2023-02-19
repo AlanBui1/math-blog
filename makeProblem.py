@@ -1,13 +1,13 @@
 from datetime import date
 
-PAGETITLE = "AIME 1983 P10"
+PAGETITLE = "AIME 1993 P1"
 AUTHOR = "Alan_Bui"
 DATE = str(date.today())
 CATEGORIES = ["AIME"]
 TAGS = ["combo", "TO DO"]
 
 FILENAME = "_posts/"+DATE+"-"+PAGETITLE.replace(" ", "-")+".md"
-PROBLEMLINK = "https://artofproblemsolving.com/wiki/index.php/1983_AIME_Problems/Problem_10"
+PROBLEMLINK = "https://artofproblemsolving.com/wiki/index.php/1993_AIME_Problems/Problem_1"
 
 cats = str(CATEGORIES).replace("'", '')
 tags = str(TAGS).replace("'", '')
@@ -28,7 +28,7 @@ mermaid: true
 
 [Problem Link]('''+PROBLEMLINK+''')
 
-The numbers $1447$, $1005$ and $1231$ have something in common: each is a $4$-digit number beginning with $1$ that has exactly two identical digits. How many such numbers are there?
+How many even integers between 4000 and 7000 have four different digits?
 
 ## Solution
 
