@@ -1,13 +1,13 @@
 from datetime import date
 
-PAGETITLE = "Fermat 2009 Q23"
+PAGETITLE = "AIME 1983 P10"
 AUTHOR = "Alan_Bui"
 DATE = str(date.today())
-CATEGORIES = ["Fermat"]
-TAGS = ["number theory"]
+CATEGORIES = ["AIME"]
+TAGS = ["combo", "TO DO"]
 
 FILENAME = "_posts/"+DATE+"-"+PAGETITLE.replace(" ", "-")+".md"
-PROBLEMLINK = "https://cemc.uwaterloo.ca/contests/past_contests/2009/2009FermatContest.pdf"
+PROBLEMLINK = "https://artofproblemsolving.com/wiki/index.php/1983_AIME_Problems/Problem_10"
 
 cats = str(CATEGORIES).replace("'", '')
 tags = str(TAGS).replace("'", '')
@@ -28,15 +28,7 @@ mermaid: true
 
 [Problem Link]('''+PROBLEMLINK+''')
 
-Suppose that $a$, $b$, $c$, and $d$ are positive integers that satisfy the equations
-
-$$ab + cd = 38$$
-
-$$ac + bd = 34$$
-
-$$ad + bc = 43$$
-
-What is the value of $a$ + $b$ + $c$ + $d$?
+The numbers $1447$, $1005$ and $1231$ have something in common: each is a $4$-digit number beginning with $1$ that has exactly two identical digits. How many such numbers are there?
 
 ## Solution
 
