@@ -1,13 +1,13 @@
 from datetime import date
 
-PAGETITLE = "AIME 1993 P1"
+PAGETITLE = "AIME II 2006 P7"
 AUTHOR = "Alan_Bui"
 DATE = str(date.today())
 CATEGORIES = ["AIME"]
 TAGS = ["combo", "TO DO"]
 
 FILENAME = "_posts/"+DATE+"-"+PAGETITLE.replace(" ", "-")+".md"
-PROBLEMLINK = "https://artofproblemsolving.com/wiki/index.php/1993_AIME_Problems/Problem_1"
+PROBLEMLINK = "https://artofproblemsolving.com/wiki/index.php/2006_AIME_II_Problems/Problem_7"
 
 cats = str(CATEGORIES).replace("'", '')
 tags = str(TAGS).replace("'", '')
@@ -28,7 +28,7 @@ mermaid: true
 
 [Problem Link]('''+PROBLEMLINK+''')
 
-How many even integers between 4000 and 7000 have four different digits?
+Find the number of ordered pairs of positive integers $(a,b)$ such that $a+b=1000$ and neither $a$ nor $b$ has a zero digit.
 
 ## Solution
 
