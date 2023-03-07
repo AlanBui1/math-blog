@@ -1,13 +1,13 @@
 from datetime import date
 
-PAGETITLE = "AIME 1985 P7"
+PAGETITLE = "AIME 1988 P5"
 AUTHOR = "Alan_Bui"
 DATE = str(date.today())
 CATEGORIES = ["AIME"]
-TAGS = ["number theory", "TO DO"]
+TAGS = ["probability", "TO DO"]
 
 FILENAME = "_posts/"+DATE+"-"+PAGETITLE.replace(" ", "-")+".md"
-PROBLEMLINK = "https://artofproblemsolving.com/wiki/index.php/1985_AIME_Problems/Problem_7"
+PROBLEMLINK = "https://artofproblemsolving.com/wiki/index.php/1988_AIME_Problems/Problem_5"
 
 cats = str(CATEGORIES).replace("'", '')
 tags = str(TAGS).replace("'", '')
@@ -26,7 +26,7 @@ mermaid: true
 ---
 ## Problem Statement
 
-Assume that $a$, $b$, $c$, and $d$ are positive integers such that $a^5 = b^4$, $c^3 = d^2$, and $c - a = 19$. Determine $d - b$.
+
 
 [Problem Link]('''+PROBLEMLINK+''')
 
