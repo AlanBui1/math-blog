@@ -1,13 +1,13 @@
 from datetime import date
 
-PAGETITLE = "AIME 1988 P5"
+PAGETITLE = "AIME II 2005 P3"
 AUTHOR = "Alan_Bui"
 DATE = str(date.today())
 CATEGORIES = ["AIME"]
-TAGS = ["probability", "TO DO"]
+TAGS = ["sequences", "TO DO"]
 
 FILENAME = "_posts/"+DATE+"-"+PAGETITLE.replace(" ", "-")+".md"
-PROBLEMLINK = "https://artofproblemsolving.com/wiki/index.php/1988_AIME_Problems/Problem_5"
+PROBLEMLINK = "https://artofproblemsolving.com/wiki/index.php/2005_AIME_II_Problems/Problem_3"
 
 cats = str(CATEGORIES).replace("'", '')
 tags = str(TAGS).replace("'", '')
